@@ -1,0 +1,99 @@
+/*!
+Theme Name: krolevets_weaving_n
+*/
+
+.header .container {
+    z-index: 99999;
+    background: #ffffff;
+}
+
+.bottom-menu {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+    color: inherit;
+}
+
+.news-wrapp {
+    align-items: baseline;
+}
+
+.news-card p {
+    text-align:justify;
+    font-size:20px;
+    line-height:30px;
+    word-break: break-all;
+}
+
+.news-card img {
+    border: 2px solid #600;
+    border-radius: 30px;
+}
+
+.page-name {
+    height: auto !important;
+    margin: 0 5%;
+}
+.page-name {
+    min-height: 200px;
+}
+
+.page-name img {
+    width: 100%;
+    margin: -15% 0;
+    filter: brightness(0.5);
+}
+
+.page-name p {
+    margin-bottom: 5%;
+    line-height: 25px;
+}
+
+.about-elem .news-wrapp {
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+.about-elem .news-wrapp .news-card {
+    width: 28%;
+}
+
+.content .justify {
+    width: 100%;
+}
+
+.content .justify h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 5%;
+    font-size: 3rem;
+    color: #600;
+}
+
+.content .justify img{
+    height: fit-content;
+    width: fit-content;
+}
+
+hr {
+    margin: 3%;
+}
+ 
+main a, strong {
+    color: #600 !important;
+}
+
+.museum-name:empty() {
+    display: none;
+}
+
+.alignleft {float:left;}
+.alignright {float:right;}
+.aligncenter {margin-left:auto; margin-right:auto; display:block}
+.alignleft {float:left; margin-right:20px;}
+.alignright {float:right; margin-left:20px;}
+.aligncenter {margin-left:auto; margin-right:auto; display:block}
