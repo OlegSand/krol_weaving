@@ -1,16 +1,5 @@
-<?php
-/*
-    Template Name: Content
-    Template Post Type: page
-*/
-?>
 
-<?php get_header( 'page_content' ); ?>
-
-        <div class="museum-name page-name">
-            <?php the_field('img-bg'); ?>
-        </div>
-    </header>
+<?php get_header( 'page_news' ); ?>
 
 <main class="main news content">
         <div class="news-name categoty-name">
@@ -24,10 +13,5 @@
             </div>
         </div>
     </main>
-
-
-
-
-
 
 <?php get_footer(); ?>

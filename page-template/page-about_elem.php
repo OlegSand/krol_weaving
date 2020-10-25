@@ -4,7 +4,7 @@ Template Name: Про елемент
 */
 ?>
 
-<?php get_header('page'); ?>
+<?php get_header('page_news'); ?>
 
 <main class="main news about-elem">
         <!-- <div class="museum-name page-name">

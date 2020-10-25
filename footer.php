@@ -13,14 +13,18 @@
         <!-- social -->
         <div class="social">
             <svg class="social-icon ig-icon">
-                <use xlink:href="img/svg/sprite-social.svg#ig"></use>
+                <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/svg/sprite-social.svg#ig"></use>
             </svg>
-            <svg class="social-icon fb-icon">
-                <use xlink:href="img/svg/sprite-social.svg#fb"></use>
-            </svg>
-            <svg class="social-icon yt-icon">
-                <use xlink:href="img/svg/sprite-social.svg#yt"></use>
-            </svg>
+            <a href="https://www.facebook.com/">
+                <svg class="social-icon fb-icon">
+                    <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/svg/sprite-social.svg#fb"></use>
+                </svg>
+            </a>
+            <a href="https://www.youtube.com/">
+                <svg class="social-icon yt-icon">
+                    <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/svg/sprite-social.svg#yt"></use>
+                </svg>
+            </a>
         </div>
         <!-- rights -->
         <div class="copyright"><span>© 2020 Усі права захищенні</span></div>

@@ -1,5 +1,11 @@
+<?php
+/*
+Template Name: Головна
+*/
+?>
+
 <?php get_header(); ?>
-    <!-- INDEX.PHP -->
+    <!-- page-main.PHP -->
 <main class="main news">
         <div class="news-name categoty-name">
             <p>Новини</p>

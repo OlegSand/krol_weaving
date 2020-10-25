@@ -1,16 +1,6 @@
-<?php
-/*
-    Template Name: Content
-    Template Post Type: page
-*/
-?>
 
-<?php get_header( 'page_content' ); ?>
 
-        <div class="museum-name page-name">
-            <?php the_field('img-bg'); ?>
-        </div>
-    </header>
+<?php get_header( 'page' ); ?>
 
 <main class="main news content">
         <div class="news-name categoty-name">
