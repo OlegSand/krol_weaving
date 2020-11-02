@@ -13,7 +13,7 @@
   <?php foreach ($pages as $page): ?>
 
 
-  <a href="<?php the_permalink($page->ID); ?>"class="news-card card-menu animate__zoomInDown">                                <!--- // TODO: задать стили для card-menu ---->
+  <a href="<?php the_permalink($page->ID); ?>"class="news-card card-menu animate__zoomIn">                                <!--- // TODO: задать стили для card-menu ---->
       <?php  echo get_the_post_thumbnail($page->ID, 'thumbnail'); 
             //the_post_thumbnail( $page->ID)?>
       <div class="news-card__name"><?php echo $page->post_title; ?></div>

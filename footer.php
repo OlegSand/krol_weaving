@@ -7,14 +7,15 @@
                 'theme_location' => 'bottom',
                 'container' => null,
                 'menu_class' => 'bottom-menu'
-            )); ?></a></p>
-            <span><a href="#">Політика конфіденційності</a></span>
+            )); ?></a></p>           
         </div>
         <!-- social -->
         <div class="social">
-            <svg class="social-icon ig-icon">
-                <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/svg/sprite-social.svg#ig"></use>
-            </svg>
+            <a href="https://www.facebook.com/">
+                <svg class="social-icon ig-icon">
+                    <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/svg/sprite-social.svg#ig"></use>
+                </svg>
+            </a>
             <a href="https://www.facebook.com/">
                 <svg class="social-icon fb-icon">
                     <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/svg/sprite-social.svg#fb"></use>

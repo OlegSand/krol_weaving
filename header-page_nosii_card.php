@@ -21,9 +21,4 @@
                 <li class="burger-plank"></li>
             </ul>
         </nav>
-        <div class="museum-name page-name">
-            <?php the_post_thumbnail(); ?>
-        </div>
-
-        
     </header>

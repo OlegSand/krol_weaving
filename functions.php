@@ -40,6 +40,7 @@ function theme_register_nav_menu() {
     register_nav_menu( 'education', 'Освіта');
     register_nav_menu( 'projects', 'Проекти');
     register_nav_menu( 'security', 'Охорона');
+    register_nav_menu( 'confidence', 'Політика конфіденційності');
 
     add_filter( 'excerpt_more', 'new_excerpt_more' );
     function new_excerpt_more( $more ){

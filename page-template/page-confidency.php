@@ -1,19 +1,15 @@
 <?php
 /*
-    Template Name: Content
+    Template Name: Політика конфіденційності
     Template Post Type: page
 */
 ?>
 
 <?php get_header( 'page_content' ); ?>
 
-        <div class="museum-name page-name">
-            <?php //the_field('img-bg');
-            the_post_thumbnail() ?>
-        </div>
     </header>
 
-    <main class="main news content">
+<main class="main news content">
         <div class="news-name categoty-name">
             <p><?php the_title(); ?></p>
         </div>

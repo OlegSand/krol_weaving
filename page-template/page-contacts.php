@@ -5,11 +5,11 @@
 */
 ?>
 
-<?php get_header( 'page_content' ); ?>
+<?php get_header( 'page_news' ); ?>
 
-    <div class="museum-name page-name">
-        <img src="<?php the_field('img-bg'); ?>" alt="bg">
-    </div>
+    <!-- <div class="museum-name page-name">
+        <img src="<?php //the_field('img-bg'); ?>" alt="bg">
+    </div> -->
 </header>
 <main class="main news content contact">
     <div class="news-name categoty-name">

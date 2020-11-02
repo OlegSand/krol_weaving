@@ -1,19 +1,16 @@
 <?php
 /*
-    Template Name: Content
+    Template Name: Картка носія
     Template Post Type: page
 */
 ?>
 
-<?php get_header( 'page_content' ); ?>
+<?php get_header( 'page_nosii_card' ); ?>
 
-        <div class="museum-name page-name">
-            <?php //the_field('img-bg');
-            the_post_thumbnail() ?>
+<main class="main news content">
+<div class="museum-name page-name">
+            <img src="<?php the_field('img-bg') ;?>">
         </div>
-    </header>
-
-    <main class="main news content">
         <div class="news-name categoty-name">
             <p><?php the_title(); ?></p>
         </div>
