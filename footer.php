@@ -11,7 +11,7 @@
         </div>
         <!-- social -->
         <div class="social">
-            <a href="https://www.facebook.com/">
+            <a href="https://www.instagram.com/">
                 <svg class="social-icon ig-icon">
                     <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/svg/sprite-social.svg#ig"></use>
                 </svg>
