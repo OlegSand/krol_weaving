@@ -16,7 +16,4 @@ Template Name: about elem
           
 </main>
 
-
-
-
 <?php get_footer(); ?>
