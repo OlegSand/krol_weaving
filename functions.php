@@ -3,14 +3,13 @@
 add_action( 'wp_enqueue_scripts', 'style_theme');
 add_action( 'wp_footer', 'scripts_theme');
 add_action( 'after_setup_theme', 'theme_register_nav_menu');
-add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );          // Только для post, page
+add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );          // Only for post, page
 add_image_size( 'content_img_size', 1200, 1000);
 add_filter( 'image_size_names_choose', 'my_custom_sizes' );
 add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
 
 function my_scripts_method() {
-	// отменяем зарегистрированный jQuery
-	// вместо "jquery-core", можно вписать "jquery", тогда будет отменен еще и jquery-migrate
+	// reject standart jQuery
 	wp_deregister_script( 'jquery-core' );
 	wp_register_script( 'jquery-core', '//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js', false, null, true);
 	wp_enqueue_script( 'jquery' );
