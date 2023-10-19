@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Про елемент
+Template Name: about elem
 */
 ?>
 
@@ -12,15 +12,9 @@ Template Name: Про елемент
             <p><?php the_title(); ?></p>
         </div>
         
-        <!-- <div class="news-wrapp container"> -->
-            <!-- card 1 start-->
-            <?php get_template_part( 'post-template/post', 'childpages' )?>;
-            <!-- card 1 end -->
-            
-
-        <!-- </div> -->
+        <?php get_template_part( 'post-template/post', 'childpages' )?>;
+          
 </main>
-<!-- вывод названий дочерних страниц с миниатюрами страницы id=33 т.е. про елемент-->
 
 
 
