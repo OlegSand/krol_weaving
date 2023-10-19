@@ -22,8 +22,6 @@
             </ul>
         </nav>
         <div class="museum-name page-name">
-            <?php the_post_thumbnail() 
-                    //the_field('изображение_страницы') 
-                    ?>
+            <?php the_post_thumbnail(); ?>
         </div>
     </header>
