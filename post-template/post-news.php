@@ -1,6 +1,6 @@
 <?php
 /*
-    Template Name: Новость(post)
+    Template Name: news
     Template Post Type: post
 */
 ?>
