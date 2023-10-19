@@ -6,7 +6,6 @@
  */
 ?>
 
-
 <?php $pages = get_pages(array('sort_column'  => 'menu_order','child_of' => get_post()->ID)); ?>
 <div class="news-wrapp container">
   <?php foreach ($pages as $page): ?>
@@ -20,4 +19,3 @@
   <?php wp_reset_postdata();
  ?>
   </div>
-
