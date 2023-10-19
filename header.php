@@ -17,15 +17,6 @@
                 'theme_location' => 'top',
                 'container' => null
             )); ?>
-            <!-- <ul class="menu">
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">Про елемент</a></li>
-                <li><a href="#">Носії</a></li>
-                <li><a href="#">Освіта</a></li>
-                <li><a href="#">Проекти</a></li>
-                <li><a href="#">Охорона</a></li>
-                <li><a href="#">Новини</a></li>
-            </ul> -->
             <ul class="burger">
                 <li class="burger-plank"></li>
             </ul>
