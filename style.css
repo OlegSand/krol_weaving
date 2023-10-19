@@ -30,12 +30,6 @@ a {
     overflow: hidden;
 }
 
-.news-card:hover img{
-    /* transition: ease-in-out 0.3s;
-    transform: scale(1.3); */
-    /* animation: zoomInDown 1s ; */
-}
-
 .news-card p {
     text-align:justify;
     font-size:20px;
@@ -82,18 +76,10 @@ a {
     width: 18%;
 }
 
-/* .about-elem .news-wrapp a + a{
-    margin-right: 2%;
-} */
-
 .content .justify {
     width: 100%;
     margin: 0 0 100px 0;
 }
-
-/* .content .justify p{
-    margin-bottom: 3%;
-} */
 
 .content .news-wrapp {
     padding: 0;
@@ -164,14 +150,6 @@ svg:hover {
     transition: .2s;
     /* transform: scale(1.05); */
 }
-/* 
-.news-card:hover {
-    margin-top: -5px;
-    box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-} */
-/* .museum-name {
-    background: #600;
-} */
 
 .menu-item {
     transition: all .2s;
@@ -201,7 +179,6 @@ svg:hover {
 } 
 .about-elem .news-wrapp a:hover img {
     transform: scale(.9);
-    /* border: 2px solid #600; */
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 } 
 
@@ -212,7 +189,6 @@ svg:hover {
 .news-wrapp .news-card:hover img {
     transform: scale(.9);
     border: none;
-    /* border: 2px solid #600; */
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 } 
 
