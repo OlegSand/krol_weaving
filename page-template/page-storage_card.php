@@ -1,6 +1,6 @@
 <?php
 /*
-    Template Name: Картка носія
+    Template Name: storage card
     Template Post Type: page
 */
 ?>
@@ -17,15 +17,9 @@
         
         <div class="news-wrapp container">
             <div class="news-card justify">
-                <!-- <div class="news-card__name"></div> -->
                 <p class="news-card__text"><?php the_content(); ?></p>
             </div>
         </div>
     </main>
-
-
-
-
-
 
 <?php get_footer(); ?>
