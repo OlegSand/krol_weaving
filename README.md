@@ -1,4 +1,11 @@
 # Krolevets weaving museum site
+
+https://krolevetsweaving.org.ua/
+
+Make site from scratch. 
+
+Design with Figma.
+
 krol_weaving
 wp-version
 
