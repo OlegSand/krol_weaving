@@ -1,6 +1,6 @@
 <?php
 /*
-    Template Name: Контакты
+    Template Name: Contacts
     Template Post Type: page
 */
 ?>
