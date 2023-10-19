@@ -19,7 +19,7 @@ Template Name: main
                 $myposts = get_posts( $args );
                 foreach( $myposts as $post ){
                     setup_postdata($post);
-                    ?>
+            ?>
                     <a href="<?php the_permalink(); ?>" class="short_description">
                         <div class="news-card">
                                 <?php the_post_thumbnail(); ?> <!--- post img---> 
