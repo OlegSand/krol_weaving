@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Головна
+Template Name: main
 */
 ?>
 
@@ -13,7 +13,6 @@ Template Name: Головна
         
         <div class="news-wrapp container">
             <a href="<?php the_permalink(); ?>"></a>
-        <!-- перебор постов в цикле и вывод из категории 2 т. е. рубрика news -->
             <?php
                 global $post;
                 $args = array('category' => 2 );
@@ -23,14 +22,13 @@ Template Name: Головна
                     ?>
                     <a href="<?php the_permalink(); ?>" class="short_description">
                         <div class="news-card">
-                                <!-- <img src="" alt="card"> -->
-                                <?php the_post_thumbnail(); ?> <!--- выводим картинку поста ---> 
-                                <div class="news-card__name"><?php the_title(); ?><!--- выводим наименование(заголовок) поста ---> 
+                                <?php the_post_thumbnail(); ?> <!--- post img---> 
+                                <div class="news-card__name"><?php the_title(); ?><!--- post name ---> 
                                 </div>
                                 <p class="news-card__text ">
                                     <?php the_excerpt(); ?>
                                 </p>
-                                <!--- выводим краткое описание поста ---> 
+                                <!--- post descr ---> 
                             </div>
                             </a>
                     <?php 
