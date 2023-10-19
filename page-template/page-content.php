@@ -8,8 +8,7 @@
 <?php get_header( 'page_content' ); ?>
 
         <div class="museum-name page-name">
-            <?php //the_field('img-bg');
-            the_post_thumbnail() ?>
+            <?php the_post_thumbnail() ?>
         </div>
     </header>
 
@@ -20,15 +19,9 @@
         
         <div class="news-wrapp container">
             <div class="news-card justify">
-                <!-- <div class="news-card__name"></div> -->
                 <p class="news-card__text"><?php the_content(); ?></p>
             </div>
         </div>
     </main>
-
-
-
-
-
 
 <?php get_footer(); ?>
